@@ -1,0 +1,85 @@
+<table class="table_col">
+            <tr>
+                <th>
+                    <h3>
+                        Бухгалтерский и<br>
+                        налоговый учет
+                    </h3>
+                </th>
+
+                <th>
+                    <h3>
+                        Восстановление<br>
+                        бухгалтерского учета
+                    </h3>
+                </th>
+
+                <th>
+                    <h3>
+                        Составление и сдача<br>
+                        отчетности
+                    </h3>
+                </th>
+                <th>
+                    <h3>
+                        Регистрация ООО, ФЛП,<br>
+                        ЧП
+                    </h3>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    от <span>100 грн.</span>
+                </td>
+                <td>
+                    от <span>100 грн.</span>
+                </td>
+                <td>
+                    от <span>100 грн.</span>
+                </td>
+                <td>
+                    от <span>100 грн.</span>
+                </td>
+
+            </tr>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+ <div class="contact_form1">
+            <div class="img1">
+                <img src="adress.jpg">
+            </div>
+            <div class="adress">
+                <h3>Адрес</h3>
+                <p>61000, Украина, г.Харьков</p>
+                <p>ул. Пушкинская, 5,</p>
+                <p>офис 234 (2-й этаж)</p>
+            </div>
+        </div>
+        <div class="contact_form2">
+            <div class="img2">
+                <img src="phone.jpg">
+            </div>
+            <div class="phone">
+                <h3>Телефон</h3>
+                <a href="tel:+380962332920">+(380) 96-23-32-920</a>
+            </div>
+        </div>
+        <div class="contact_form3">
+            <div class="img3">
+                <img src="email.jpg">
+            </div>
+            <div class="email">
+                <h3>Электронная почта</h3>
+                <a href="mailto:info@strategicconsulting.in.ua">info@strategicconsulting.in.ua</a>
+            </div>
+        </div>

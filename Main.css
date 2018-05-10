@@ -1,0 +1,263 @@
+﻿
+header {
+    background: url(background1.png) no-repeat center top;
+    background-size: cover;
+    height: 600px;    
+}
+
+
+div {
+    box-sizing: border-box;
+}
+
+nav {
+    float: left;
+    margin: 8% 41px 42px 10%;
+    width: 93%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #222222;
+}
+
+.container {
+    padding: 10px;
+    width: 930px;
+    margin: auto;
+}
+
+
+.logo {
+    float: left;
+    width: 10%;
+    margin: 30px 0px 0px 30px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+    .menu li {
+        float: left;
+        display: block;
+        margin-right: 4%;
+    }
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.title {
+    padding-top: 115px;
+}
+
+.titles {
+    padding: 10px;
+    margin-top: 5%;
+}
+
+.titles__first {
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.title h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.title p {
+    color: #777777;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.reviews {
+    margin-top: 80px;
+}
+
+.services__item {
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+
+
+.services__item p {
+     color: #777777;
+     font-size: 20px;
+     line-height: 1.55em;
+}
+
+.services__item:last-child {
+     float: right;
+}
+
+    
+.services__item:nth-child(2) {
+     margin-left: 60px;
+}
+
+#services {
+    padding-bottom: 120px;
+}
+
+#reviews {
+    background: #f7f7f7;
+    padding-bottom: 120px;
+}
+
+.site-info {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.form{
+    text-align: center;
+}
+
+.button {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: rgb(53, 167, 110);
+}
+
+.button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.welcome {
+    color: #ffff00;
+}
+
+.table_col {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    background: white;
+    text-align: left;
+    border-collapse: collapse;
+    color: #3E4347;
+}
+
+    .table_col th {
+        width: 4%;
+        font-weight: normal;
+        border-bottom: 2px solid #F5E1A6;
+        border-right: 20px solid white;
+        border-left: 20px solid white;
+        padding: 8px 10px;
+        background: #C7DAF0;
+    }
+
+    .table_col td {
+        width: 4%;
+        border-right: 20px solid white;
+        border-left: 20px solid white;
+        padding: 12px 10px;
+    }
+
+span{
+    font-size:32px;
+}
+
+.title_h3 h3 {
+    padding-top: 2%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.guarantee{
+    font-size: 18px;
+}
+
+.indentation {
+    text-indent: 20px;
+    font-size: 18px;
+}
+.consulting_firm {
+    color: white;
+}
+
+.google_map {
+   margin: 0% 15% 0% 24%;
+}
+
+.bullet {
+    margin-left: 0;
+    list-style: none;
+    counter-reset: li;
+    -webkit-padding-start: 20px;
+}
+
+    .bullet li {
+        position: relative;
+        margin-bottom: 1.5em;
+        border: 3px solid #CADFCF;
+        padding: 0.6em;
+        border-radius: 4px;
+        background: #FEFEFE;
+        color: #231F20;
+        font-family: "Trebuchet MS", "Lucida Sans";
+    }
+
+        .bullet li:before {
+            position: absolute;
+            top: -0.7em;
+            padding-left: 0.4em;
+            padding-right: 0.4em;
+            font-size: 16px;
+            font-weight: bold;
+            color: #DCC24B;
+            background: #FEFEFE;
+            border-radius: 50%;
+            counter-increment: li;
+            content: counter(li);
+        }
+
+
+.table_contacts {
+    width: 100%;
+    float: right;
+    margin-top : 30px;
+}
+.table_contacts th{
+    font-size:  30px;
+}
+.table_contacts td{
+    text-align: center;
+}
